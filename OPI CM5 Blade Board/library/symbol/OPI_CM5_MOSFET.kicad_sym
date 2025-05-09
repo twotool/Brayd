@@ -361,7 +361,7 @@
 		(symbol "WNM6002-3/TR_0_1"
 			(polyline
 				(pts
-					(xy -2.032 1.524) (xy -2.032 -1.524)
+					(xy -2.032 1.27) (xy -2.032 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -373,7 +373,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.524) (xy -1.27 1.016)
+					(xy -1.27 1.27) (xy -1.27 1.016)
 				)
 				(stroke
 					(width 0)
@@ -397,7 +397,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.016) (xy -1.27 -1.524)
+					(xy -1.27 -1.016) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -542,7 +542,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 0 0)
+				(at -3.81 -1.27 0)
 				(length 1.778)
 				(name "G"
 					(effects

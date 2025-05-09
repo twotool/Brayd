@@ -350,6 +350,14 @@
 				(hide yes)
 			)
 		)
+		(property "Package" "SOT_323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "WNM6002-3/TR_0_1"
 			(polyline
 				(pts
