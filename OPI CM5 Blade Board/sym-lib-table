@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OPI_CM5_CONN1")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_CONN.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_M.2_CONN")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_M.2_CONN.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_Resistor_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_Resistor_SMD.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_Capacitor_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_Capacitor_SMD.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_Level_Shifter")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_Level_Shifter.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_TVS_DIODE")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_TVS_DIODE.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_MOSFET")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_MOSFET.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_DIODE")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_DIODE.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_HDMI_CONN")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_HDMI_CONN.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_TEMP_SENSOR")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_TEMP_SENSOR.kicad_sym")(options "")(descr ""))
+)
