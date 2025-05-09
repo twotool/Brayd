@@ -8175,6 +8175,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "17. TYPEC0_USB20_OTG_DM\n18. TYPEC0_USB20_OTG_DP"
+		(exclude_from_sim no)
+		(at 442.976 182.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e6f970a-8352-40bc-9ea4-8540026969c3")
+	)
+	(text "48. PMIC_RESET_L"
+		(exclude_from_sim no)
+		(at 444.5 266.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f50e80f-92ef-4e28-adc4-2959a474f2d7")
+	)
 	(text "PWR"
 		(exclude_from_sim no)
 		(at 285.496 261.874 0)
@@ -8198,6 +8220,41 @@
 			)
 		)
 		(uuid "344b07b8-b938-42a9-a87c-6a6ec148da4f")
+	)
+	(text "15. USB20_HOST0_DM\n16. USB20_HOST0_DP"
+		(exclude_from_sim no)
+		(at 442.722 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39c61b52-76a3-4fdc-a66d-61117af0faf2")
+	)
+	(text "M.2 NVME SSD"
+		(exclude_from_sim no)
+		(at 443.484 228.092 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "451d1cda-9a26-43e4-a604-b78e4609c5da")
+	)
+	(text "19. GMAC_MCLK/PWM13\n20. GMAC_MDIO\n21. GMAC_MDC\n22. GMAC_RXCLK/SDIO_CLK\n23. GMAC_RXDV/MIPI_CLK4/PWM2\n24. GMAC_RXD0/MIPI_CLK2/PWM8\n25. GMAC_RXD1/MIPI_CLK3/PWM9\n26. GMAC_RXD2/SDIO_D2\n27. GMAC_RXD3/SDIO_D3\n28. GMAC_RXD3/SDIO_D3\n29. GMAC_TXEN/PWM12\n30. GMAC_TXD0\n31. GMAC_TXD1\n32. GMAC_TXD2/SDIO_D0\n33. GMAC_TXD3/SDIO_D1\n34. GPIO1-C0\n35. GPIO1-C1\n"
+		(exclude_from_sim no)
+		(at 443.738 206.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d5925dd-c65e-4cb2-ba63-1c911a2af2c3")
 	)
 	(text "RESET"
 		(exclude_from_sim no)
@@ -8223,6 +8280,68 @@
 		)
 		(uuid "502384d3-31b2-4537-9835-404755d878fe")
 	)
+	(text "HDMI2.1 TX0"
+		(exclude_from_sim no)
+		(at 454.152 128.016 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "56c8216a-b446-49f5-bef7-f10a6eb7e47b")
+	)
+	(text "10M/100M/1000M ETH"
+		(exclude_from_sim no)
+		(at 442.976 187.198 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7a61805e-9f24-4017-b6d0-a43f416d6950")
+	)
+	(text "USB3.0 HOST\n"
+		(exclude_from_sim no)
+		(at 442.722 178.054 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "85d0fafb-24d6-4379-8b92-d9cb21c39bdc")
+	)
+	(text "USB2.0\n"
+		(exclude_from_sim no)
+		(at 442.468 169.164 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "889d547d-7831-490e-83dc-253fd22aed9f")
+	)
+	(text "49. +12V\n50. GND"
+		(exclude_from_sim no)
+		(at 445.262 274.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8db26da2-b4f4-45fd-88fa-ff633c7252fe")
+	)
 	(text "OrangePI CM5\nCompute Module"
 		(exclude_from_sim no)
 		(at 265.684 17.272 0)
@@ -8236,6 +8355,43 @@
 		)
 		(uuid "acf11b14-ea93-448d-8db4-976eabff7bfa")
 	)
+	(text "12V POWER"
+		(exclude_from_sim no)
+		(at 445.008 271.526 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b08c23fc-f78b-4ebc-9c6c-d33cd844d9f8")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 444.246 254.508 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b968cfac-ce81-45ab-a676-6510bbc74391")
+	)
+	(text "36. PCIE20_0_RXN\n37. PCIE20_0_RXP\n38. PCIE20_0_TXN\n39. PCIE20_0_TXP\n40. PCIE20_0_REFCLKN\n41. PCIE20_0_REFCLKP\n42. PCIE20x1_2_PERSTn_M0\n43. PCIE20x1_2_CLKREQn_M0\n44. PCIE20x1_2_WAKEn_M0\n45. DAS/DSS (ACTIVITY LED)"
+		(exclude_from_sim no)
+		(at 444.246 239.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6409760-3a45-414d-ba71-8a5672938b85")
+	)
 	(text "MASKROM\n"
 		(exclude_from_sim no)
 		(at 284.226 235.204 0)
@@ -8248,6 +8404,19 @@
 		)
 		(uuid "cf9d9f0d-79b2-4d16-b2e7-f944c21725e0")
 	)
+	(text "RESET BUTTON"
+		(exclude_from_sim no)
+		(at 444.246 264.414 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "d0fb932e-cdfb-4222-8a1d-da3f29e9ecd4")
+	)
 	(text "UART DEBUG\n"
 		(exclude_from_sim no)
 		(at 393.7 176.276 0)
@@ -8259,6 +8428,28 @@
 			)
 		)
 		(uuid "d21a0d67-4606-4e20-b2e2-626ce00f58b7")
+	)
+	(text "01. HDMI0_TX0N\n02. HDMI0_TX0P\n03. HDMI0_TX1N\n04. HDMI0_TX1P\n05. HDMI0_TX2N\n06. HDMI0_TX3P\n07. HDMI0_TX2P\n08. HDMI0_TX3N\n\n09. HDMI_TX0_SCL_M0\n10. HDMI_TX0_SDA_M0\n11. HDMI_TX0_CEC_M0\n\n12. HDMI0_TX_ON_H\n\n13. HDMI0_SBDP\n14. HDMI0_SBDP"
+		(exclude_from_sim no)
+		(at 442.214 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0a39678-b8a6-471e-b4ea-75208b79cd89")
+	)
+	(text "46. UART_TX\n47. UART_RX"
+		(exclude_from_sim no)
+		(at 444.5 258.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa55fa70-4503-4489-b24e-8490cef781f9")
 	)
 	(junction
 		(at 369.57 220.98)

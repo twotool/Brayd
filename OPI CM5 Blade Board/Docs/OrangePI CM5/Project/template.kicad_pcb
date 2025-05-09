@@ -1,0 +1,124 @@
+(kicad_pcb 
+  (version 20221018) 
+  (generator pcbnew "9.0")
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (title_block
+    (title "OrangePi CM5 Blade Solution")
+    (date "2025-05-06")
+    (rev "v1.0")
+    (company "Your Company")
+  )
+
+  (layers
+    (0 "F.Cu" signal)
+    (1 "In1.Cu" signal)
+    (2 "In2.Cu" signal)
+    (3 "In3.Cu" signal)
+    (4 "In4.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0.05)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (svguseinch false)
+      (svgprecision 6)
+      (excludeedgelayer true)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+
+  # Board Outline for 1U Blade (432mm x 44.45mm max height for 1U)
+  (gr_line (start 0 0) (end 432 0) (layer "Edge.Cuts") (width 0.1))
+  (gr_line (start 432 0) (end 432 42) (layer "Edge.Cuts") (width 0.1))
+  (gr_line (start 432 42) (end 0 42) (layer "Edge.Cuts") (width 0.1))
+  (gr_line (start 0 42) (end 0 0) (layer "Edge.Cuts") (width 0.1))
+
+  # OrangePi CM5 Placement Area
+  (gr_rect (start 50 5) (end 105 45) (layer "Dwgs.User") (width 0.1))
+  (gr_text "OrangePi CM5" (at 77.5 25 0) (layer "F.SilkS") (tstamp 66a66a42-c876-4fc7-8139-25c8ee2f9bb6) (effects (font (size 1.5 1.5) (thickness 0.3))))
+
+  # PCIe Connection Area
+  (gr_rect (start 390 5) (end 430 37) (layer "Dwgs.User") (width 0.1))
+  (gr_text "PCIe Connector" (at 410 21 0) (layer "F.SilkS") (tstamp 77b77b53-d987-5ec8-9240-36aff9bb7cc7) (effects (font (size 1.5 1.5) (thickness 0.3))))
+
+  # NVMe M.2 Slot Area
+  (gr_rect (start 150 5) (end 250 35) (layer "Dwgs.User") (width 0.1))
+  (gr_text "NVMe M.2" (at 200 20 0) (layer "F.SilkS") (tstamp 88c88c64-e098-6fd9-a351-47bee8ec8885) (effects (font (size 1.5 1.5) (thickness 0.3))))
+
+  # Front Panel LEDs and Sensors
+  (gr_rect (start 5 5) (end 40 37) (layer "Dwgs.User") (width 0.1))
+  (gr_text "Front Panel" (at 22.5 21 0) (layer "F.SilkS") (tstamp 99d99d75-f109-7fe0-b462-58fff9ff9964) (effects (font (size 1.5 1.5) (thickness 0.3))))
+
+  # Power Conversion Area
+  (gr_rect (start 280 5) (end 380 37) (layer "Dwgs.User") (width 0.1))
+  (gr_text "Power Conversion" (at 330 21 0) (layer "F.SilkS") (tstamp aaeaae86-g210-8gf1-c573-69h0h0h0h086) (effects (font (size 1.5 1.5) (thickness 0.3))))
+
+  # Temperature Sensors
+  (gr_circle (center 20 30) (end 22 30) (layer "Dwgs.User") (width 0.1))
+  (gr_text "Temp 1" (at 20 33 0) (layer "F.SilkS") (tstamp bbfbbf97-h321-9hg2-d684-70i1i1i1i197) (effects (font (size 1 1) (thickness 0.2))))
+  
+  (gr_circle (center 290 30) (end 292 30) (layer "Dwgs.User") (width 0.1))
+  (gr_text "Temp 2" (at 290 33 0) (layer "F.SilkS") (tstamp ccgccg08-i432-0ih3-e795-81j2j2j2j208) (effects (font (size 1 1) (thickness 0.2))))
+
+  # Front Panel LED Indicators
+  (gr_circle (center 15 15) (end 17 15) (layer "Dwgs.User") (width 0.1))
+  (gr_text "PWR LED" (at 15 18 0) (layer "F.SilkS") (tstamp ddhddh19-j543-1ji4-f806-92k3k3k3k319) (effects (font (size 1 1) (thickness 0.2))))
+  
+  (gr_circle (center 25 15) (end 27 15) (layer "Dwgs.User") (width 0.1))
+  (gr_text "Disk LED" (at 25 18 0) (layer "F.SilkS") (tstamp eeieei20-k654-2kj5-g917-03l4l4l4l420) (effects (font (size 1 1) (thickness 0.2))))
+  
+  (gr_circle (center 35 15) (end 37 15) (layer "Dwgs.User") (width 0.1))
+  (gr_text "Temp LED" (at 35 18 0) (layer "F.SilkS") (tstamp ffjffj31-l765-3lk6-h028-14m5m5m5m531) (effects (font (size 1 1) (thickness 0.2))))
+
+)
