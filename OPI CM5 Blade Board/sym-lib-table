@@ -10,4 +10,5 @@
   (lib (name "OPI_CM5_DIODE")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_DIODE.kicad_sym")(options "")(descr ""))
   (lib (name "OPI_CM5_HDMI_CONN")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_HDMI_CONN.kicad_sym")(options "")(descr ""))
   (lib (name "OPI_CM5_TEMP_SENSOR")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_TEMP_SENSOR.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_PCIe_CONN")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_PCIe_CONN.kicad_sym")(options "")(descr ""))
 )
