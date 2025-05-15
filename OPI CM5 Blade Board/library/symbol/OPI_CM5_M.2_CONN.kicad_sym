@@ -1474,52 +1474,15 @@
 			)
 		)
 		(symbol "J_1-2199230-5_1_1"
-			(polyline
-				(pts
-					(xy -19.05 52.07) (xy 17.78 52.07)
-				)
+			(rectangle
+				(start -19.05 52.07)
+				(end 17.78 -46.99)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -19.05 -46.99) (xy -19.05 52.07)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.78 52.07) (xy 17.78 -46.99)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 17.78 -46.99) (xy -19.05 -46.99)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(text "M2 Key M"

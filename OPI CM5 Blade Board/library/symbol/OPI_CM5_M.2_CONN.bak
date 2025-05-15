@@ -1453,6 +1453,26 @@
 				(hide yes)
 			)
 		)
+		(symbol "J_1-2199230-5_1_0"
+			(pin bidirectional line
+				(at 22.86 29.21 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "J_1-2199230-5_1_1"
 			(polyline
 				(pts

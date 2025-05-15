@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "TXB0304RUTR"
-			(at 0 0 0)
+			(at 0 -16.764 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "OPI_CM5_Level_Shifter:RUT0012A"
-			(at 0 0 0)
+			(at -0.254 -19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "TXB0304RUTR"
-			(at 0 0 0)
+			(at -0.254 -22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,56 +73,8 @@
 			)
 		)
 		(symbol "TXB0304RUTR_0_1"
-			(polyline
-				(pts
-					(xy -12.7 12.7) (xy -12.7 -12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -12.7 -12.7) (xy 12.7 -12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 12.7) (xy -12.7 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 -12.7) (xy 12.7 12.7)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
-				(at -17.78 7.62 0)
+				(at -13.97 5.08 0)
 				(length 5.08)
 				(name "VCCA"
 					(effects
@@ -140,7 +92,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 2.54 0)
+				(at -13.97 2.54 0)
 				(length 5.08)
 				(name "A1"
 					(effects
@@ -158,7 +110,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -13.97 0 0)
 				(length 5.08)
 				(name "A2"
 					(effects
@@ -176,7 +128,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at -13.97 -2.54 0)
 				(length 5.08)
 				(name "A3"
 					(effects
@@ -194,7 +146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -13.97 -5.08 0)
 				(length 5.08)
 				(name "A4"
 					(effects
@@ -212,7 +164,7 @@
 				)
 			)
 			(pin input line
-				(at 0 17.78 270)
+				(at 0 13.97 270)
 				(length 5.08)
 				(name "OE"
 					(effects
@@ -230,7 +182,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -13.97 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -248,7 +200,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 7.62 180)
+				(at 13.97 5.08 180)
 				(length 5.08)
 				(name "VCCB"
 					(effects
@@ -266,7 +218,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 2.54 180)
+				(at 13.97 2.54 180)
 				(length 5.08)
 				(name "B1"
 					(effects
@@ -284,7 +236,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 180)
+				(at 13.97 0 180)
 				(length 5.08)
 				(name "B2"
 					(effects
@@ -302,7 +254,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 13.97 -2.54 180)
 				(length 5.08)
 				(name "B3"
 					(effects
@@ -320,7 +272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at 13.97 -5.08 180)
 				(length 5.08)
 				(name "B4"
 					(effects
@@ -335,6 +287,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "TXB0304RUTR_1_1"
+			(rectangle
+				(start -8.89 8.89)
+				(end 8.89 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
