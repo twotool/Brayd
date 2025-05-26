@@ -1,4 +1,4 @@
-25613292863579775
+25615040612898236
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70776,6 +70776,13 @@ PHOENIX_1332071
 0
 23
 23
+OPI_CM5_INDUCTOR_SMD
+WPN4020H2R2MT
+
+
+0
+2
+2
 OPI_CM5_Level_Shifter
 RUT0012A
 

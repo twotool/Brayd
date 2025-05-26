@@ -12,4 +12,6 @@
   (lib (name "OPI_CM5_TEMP_SENSOR")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_TEMP_SENSOR.kicad_sym")(options "")(descr ""))
   (lib (name "OPI_CM5_PCIe_CONN")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_PCIe_CONN.kicad_sym")(options "")(descr ""))
   (lib (name "OPI_CM5_PUSH_SW")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_PUSH_SW.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_REGULATOR_SWITCHING")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_REGULATOR_SWITCHING.kicad_sym")(options "")(descr ""))
+  (lib (name "OPI_CM5_INDUCTOR_SMD")(type "KiCad")(uri "${KIPRJMOD}/library/symbol/OPI_CM5_INDUCTOR_SMD.kicad_sym")(options "")(descr ""))
 )
