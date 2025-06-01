@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,60 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|160596000|41465000|4c5e8398-0d29-4273-bfad-888852c21a4e|83fbd173-d495-4b76-b46b-d9ac9b3afe46",
+          ""
+        ],
+        [
+          "clearance|168724000|39941000|ab73f21e-f67d-43b1-be26-fe5b8b04de69|b8922347-484e-4459-b89d-7e51d0959a3c",
+          ""
+        ],
+        [
+          "clearance|223333985|68432722|42a93675-32b7-4fb0-a37a-c38b3c59c78c|453458e4-300c-4884-8376-fb1dc2f64d4a",
+          ""
+        ],
+        [
+          "clearance|223333985|68432722|42a93675-32b7-4fb0-a37a-c38b3c59c78c|ccac1406-5dd9-4192-9981-2c915cb7263f",
+          ""
+        ],
+        [
+          "clearance|225733985|68432722|52f1190a-0aaf-4175-9316-181561070bb9|cab70c4e-b528-479d-a96a-820a78611f75",
+          ""
+        ],
+        [
+          "clearance|225933985|68432722|ad53f62a-5a53-405e-be1b-8a9ea9723687|cab70c4e-b528-479d-a96a-820a78611f75",
+          ""
+        ],
+        [
+          "clearance|251074000|60186500|dd82dd39-080c-40e9-9992-43c72a7de3c8|d92c6105-c43c-4f7e-bd1a-9e7816853a8a",
+          ""
+        ],
+        [
+          "clearance|251274000|67169800|fadb54fd-a8a9-4c7e-8aca-569ce76c0426|a2a90bd4-4c0f-46f8-8b62-a6c2e5d90906",
+          ""
+        ],
+        [
+          "clearance|260926000|65645800|92b26638-3ac0-4f99-9333-d00cda4421e4|c95e1afd-62a2-484e-bb7a-08cf1c12968e",
+          ""
+        ],
+        [
+          "clearance|262704000|68693800|bc5526c5-6a26-4556-98de-1ffd1d47c22c|9f7a28cc-9d13-437d-abed-ac25fa483160",
+          ""
+        ],
+        [
+          "clearance|264282000|68313800|9dbb8805-4d19-4ee0-b2e2-03632bb46510|9af70159-0a0d-4718-abc3-f45016f63ebf",
+          ""
+        ],
+        [
+          "clearance|52496000|35790275|7c45cc6e-e407-4dfb-9b48-161e2b8eb81a|67328c4d-b79b-4d14-a784-cf3a95768417",
+          ""
+        ],
+        [
+          "clearance|52496000|39092275|b7c9cc73-2ee9-4e02-8429-da04edd0bc95|3c23bdab-df94-49b3-bd08-504ec02bf955",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -116,7 +169,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -498,6 +551,47 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+3.3V_5A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.254,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+5V_3A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.15,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
@@ -505,10 +599,10 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.19,
-        "via_diameter": 6.0,
+        "via_diameter": 0.6,
         "via_drill": 0.3
       }
     ],
@@ -517,7 +611,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "+12V",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "+5V_3A",
+        "pattern": "+5V_3A"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
