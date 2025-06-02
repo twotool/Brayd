@@ -107,7 +107,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -138,9 +138,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/")
 		)
 	)
 	(net 0 "")
@@ -414,7 +414,7 @@
 			(uuid "5d7baab8-80f3-469a-a8b2-024f2853d370")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -425,7 +425,7 @@
 			(uuid "2bcef5df-51dc-4683-a5ad-3192506cf4b9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -571,7 +571,7 @@
 			(uuid "3feb307d-cb09-400e-8f78-bbb73bcfdd29")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -633,7 +633,7 @@
 			(uuid "01329c5b-224c-4fe5-a74f-bc3f06bc5e7d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -644,7 +644,7 @@
 			(uuid "6b51f3a8-2719-446a-a1d5-c5d92e9e7c7b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -790,7 +790,7 @@
 			(uuid "62a179b1-d5bf-4d1e-9485-3af7875df7be")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -854,7 +854,7 @@
 			(uuid "d977f1eb-2e47-4d8a-8595-d3f4dc649fb6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -866,7 +866,7 @@
 			(uuid "24902c5f-365a-485b-b388-e2f1be95943b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -930,7 +930,7 @@
 			(uuid "c4c9250f-0736-48b0-aec0-3f17fcce511b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -955,12 +955,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CC2"
-			(at 0 -1.05 90)
+			(at -2.54 0 90)
 			(layer "F.SilkS")
 			(uuid "58292ded-f684-495f-baa8-87693bb98193")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -971,7 +971,7 @@
 			(uuid "e6acc0bf-2c39-477f-a77e-5cef75667591")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1130,7 +1130,7 @@
 			(uuid "96590654-3f1e-48dc-9216-b7a33b01d682")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -1187,12 +1187,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 -1.05 90)
+			(at 0 1.143 90)
 			(layer "F.SilkS")
 			(uuid "5ac561ea-f378-4d3e-be62-b32ca347e5f2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1203,7 +1203,7 @@
 			(uuid "b73acb67-9248-4b8a-8582-b5605ea0144d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1349,7 +1349,7 @@
 			(uuid "646fe455-aa57-4478-a840-614e4171c147")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -1406,7 +1406,7 @@
 		(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
 		(tags "Diode SOD882 DFN1006-2")
 		(property "Reference" "ED5"
-			(at 0 -1.35 0)
+			(at -2.145 -0.025125 0)
 			(layer "F.SilkS")
 			(uuid "4afc56bf-d606-4410-a8c5-ff5c6eccad28")
 			(effects
@@ -1422,7 +1422,7 @@
 			(uuid "110b5b97-1086-4480-b500-62534c0bfe16")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1647,7 +1647,7 @@
 			(uuid "0fd73a75-2efb-4dab-9264-4df15555cb40")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1722,12 +1722,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CC4"
-			(at 0 -1.05 90)
+			(at 0 -2.286 90)
 			(layer "F.SilkS")
 			(uuid "5aca4a04-621c-45f1-afde-b583556de107")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1738,7 +1738,7 @@
 			(uuid "700a81ed-3a2a-413a-9392-a48c17557bad")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1897,7 +1897,7 @@
 			(uuid "9536ca84-07eb-46b3-bee4-2b28c82e3cb5")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -1959,7 +1959,7 @@
 			(uuid "57ddd500-c233-472c-9e60-dd27fbfce614")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1970,7 +1970,7 @@
 			(uuid "1b2992bc-f194-4bfe-962d-8557a82ce74e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2116,7 +2116,7 @@
 			(uuid "2a87c7a9-9cf8-498a-8424-cfb8e8689b07")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -2178,7 +2178,7 @@
 			(uuid "200dc115-a0e6-459b-964d-44bb5fd371e8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2189,7 +2189,7 @@
 			(uuid "73fd9c30-545d-4d9b-9fb2-60b2340d5046")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2335,7 +2335,7 @@
 			(uuid "e2fb1c21-2410-442c-8acc-ddb1725dcdeb")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -2397,7 +2397,7 @@
 			(uuid "90b3a742-5ac7-403a-89b3-793e9dd701d6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2409,7 +2409,7 @@
 			(uuid "3f33be02-d8d7-4933-98be-9b3820e2923a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2569,7 +2569,7 @@
 			(uuid "5282262d-d788-4284-887a-e685bae1e356")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2630,12 +2630,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
-			(at 0 -1.05 0)
+			(at 0 -2.286 0)
 			(layer "F.SilkS")
 			(uuid "bc608984-f73a-49f1-abf6-1f2202864e7c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2646,7 +2646,7 @@
 			(uuid "91546007-8df8-4125-a90e-274dbcb3bed2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2805,7 +2805,7 @@
 			(uuid "4a8b17db-7933-4e96-afb4-37a4be7899ff")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -2862,12 +2862,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CC5"
-			(at 0 -1.05 90)
+			(at 0 -1.778 90)
 			(layer "F.SilkS")
 			(uuid "786fa915-5666-4665-924c-c58105e8d177")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2878,7 +2878,7 @@
 			(uuid "d5db61fc-7176-4559-bcd5-c3f4273cecb4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3037,7 +3037,7 @@
 			(uuid "12dedd04-d107-40da-a18b-21fb64955cd0")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -3110,7 +3110,7 @@
 			(uuid "f4a02f17-bcd4-425d-86a9-9449adfbfbb4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3335,7 +3335,7 @@
 			(uuid "5dd9403f-8dca-4b75-b083-1bd9e7d05eeb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3415,7 +3415,7 @@
 			(uuid "038cf1f7-0323-481c-a3dc-02caa20dfc46")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3426,7 +3426,7 @@
 			(uuid "0ef431a2-9e86-49fe-8f7d-6e0a34ab8b51")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3585,7 +3585,7 @@
 			(uuid "b91fb725-55a7-458f-9768-0e24ed896871")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -3642,12 +3642,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CC1"
-			(at 0 -1.05 90)
+			(at -2.032 0 90)
 			(layer "F.SilkS")
 			(uuid "598ff1cf-500d-46ba-8ae6-5cc729f5c586")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3658,7 +3658,7 @@
 			(uuid "0c2517d7-6c0a-4ad4-aa9f-aef038092727")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3817,7 +3817,7 @@
 			(uuid "95da01b7-5b7a-4151-b0c0-be7c30f010c5")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -3872,23 +3872,23 @@
 		(uuid "46668b58-4df5-434b-9f96-69e7bd3c36ed")
 		(at 166.084 34.29 90)
 		(property "Reference" "L1"
-			(at 0 3.5 90)
+			(at 3.429 0 90)
 			(layer "F.SilkS")
 			(uuid "d4e63b84-b629-4e63-bdb9-d425b6ef42f7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "WPN4020H2R2MT"
 			(at 0 -3 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "2de4bdad-10dd-4f45-928e-558303c0dac6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4165,7 +4165,7 @@
 			(uuid "a1735151-fec2-4552-8422-5caf71e6a032")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4176,7 +4176,7 @@
 			(uuid "a8623c2b-7794-4fe1-961b-e39bb802e3cf")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4335,7 +4335,7 @@
 			(uuid "fe917f41-f94a-4aba-99ac-afcb939f3bac")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -4397,7 +4397,7 @@
 			(uuid "20fdf600-aa37-41fa-9637-5b36d014bfcb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4408,7 +4408,7 @@
 			(uuid "ad067341-3a10-408f-8e60-95f2c9a7dda3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4554,7 +4554,7 @@
 			(uuid "11fe5a85-8dab-407c-8864-019f00a1f171")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -4615,7 +4615,7 @@
 			(uuid "2ba33bfe-e2fc-4ea9-a86c-576817eb3faa")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4627,7 +4627,7 @@
 			(uuid "c228a16e-1540-49d9-859c-aeed3e3b2ab6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -7096,7 +7096,7 @@
 			(uuid "a0edf372-2259-450b-a660-72267378a8ad")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -7107,7 +7107,7 @@
 			(uuid "1ddf8b43-6b9c-47d8-b9aa-453ec348bd1c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.015)
 				)
 			)
@@ -8268,7 +8268,7 @@
 			(uuid "1917599d-c710-45ae-bd60-4c4af8ba576c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8279,7 +8279,7 @@
 			(uuid "694c023a-692c-4128-bd9b-4d703b315d0e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8425,7 +8425,7 @@
 			(uuid "548def3d-1253-470d-8901-0df9d7c39cd0")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -8482,12 +8482,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
-			(at 0 -1.05 0)
+			(at -2.526 0 0)
 			(layer "F.SilkS")
 			(uuid "cfd8cb58-dd39-446e-aa2d-e22f1a15f99c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8498,7 +8498,7 @@
 			(uuid "3db17f4e-3cd0-440d-84e0-ff767faec8ed")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8644,7 +8644,7 @@
 			(uuid "8dd15f24-7ec7-4db4-aebc-39c99618fd0c")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -8701,12 +8701,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
-			(at 0 -1.68 90)
+			(at -2.159 0 90)
 			(layer "F.SilkS")
 			(uuid "598a8288-0a4f-41dd-8e77-a9db6e3fb61a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8717,7 +8717,7 @@
 			(uuid "8a9cf864-90bd-42a4-8a58-ef36e590f6fd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8896,7 +8896,7 @@
 			(uuid "22f85ec8-8328-4dc7-b122-20a97350f8f5")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -8939,12 +8939,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C43"
-			(at 0 -1.68 0)
+			(at 0 1.651 0)
 			(layer "F.SilkS")
 			(uuid "f80192ec-a639-444d-80f8-feefdd885623")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8955,7 +8955,7 @@
 			(uuid "8dc7bf51-eac6-4f72-bf98-b2762264546c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9134,7 +9134,7 @@
 			(uuid "3548d6fc-73ab-4060-b2aa-81dcc2593e18")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -9182,7 +9182,7 @@
 			(uuid "4f523a6d-847d-412c-a34c-26f75cf4db34")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9193,7 +9193,7 @@
 			(uuid "7029ecde-01bc-43b4-81de-872296cc2c96")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9339,7 +9339,7 @@
 			(uuid "5e2685c4-b8ea-4cc1-b111-583d1b751396")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -9401,7 +9401,7 @@
 			(uuid "0b709114-b71c-4b3a-8369-30cc4d741580")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9412,7 +9412,7 @@
 			(uuid "cb7a3ab0-2996-48cb-a49d-ac4301bcf781")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9558,7 +9558,7 @@
 			(uuid "d66c04bd-b75b-45c0-b69f-bcb2530305d4")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -9619,7 +9619,7 @@
 			(uuid "57910527-fa8d-4434-a37b-4b1b4a02da83")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9631,7 +9631,7 @@
 			(uuid "1d2ee793-a365-4888-9ad3-5701c22abd42")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12095,7 +12095,7 @@
 		(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
 		(tags "Diode SOD882 DFN1006-2")
 		(property "Reference" "D17"
-			(at 0 -1.35 90)
+			(at 1.8825 0 90)
 			(layer "F.SilkS")
 			(uuid "59de3429-27d9-4256-a58d-1f3e5d44d319")
 			(effects
@@ -12111,7 +12111,7 @@
 			(uuid "41d54d7e-c4ca-4780-b839-9b7ddc61cdff")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12336,7 +12336,7 @@
 			(uuid "df3c12dc-bef9-48d7-ae39-70732fac8580")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12411,12 +12411,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.05 0)
+			(at 0 -2.032 0)
 			(layer "F.SilkS")
 			(uuid "c6e2f066-1c2c-45ec-b30e-3637a137c408")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12427,7 +12427,7 @@
 			(uuid "ff9a95d3-4d70-4fff-9fd2-1b5f0a469c93")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12586,7 +12586,7 @@
 			(uuid "19e2f1ea-8d8f-4032-9060-68d9359ceeee")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -12648,7 +12648,7 @@
 			(uuid "482cdc70-be17-4c5f-b73d-c8db102fc00f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12659,7 +12659,7 @@
 			(uuid "d7d0c759-b0b2-47a3-9ee9-afe1f699c4ea")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12805,7 +12805,7 @@
 			(uuid "0070c4f7-758c-4c19-9f32-ebb92cefc8ff")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -12862,12 +12862,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
-			(at 0 -1.68 90)
+			(at -2.8455 0.038 90)
 			(layer "F.SilkS")
 			(uuid "229190e5-e45d-4ff8-8b24-8098906b9e30")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12878,7 +12878,7 @@
 			(uuid "75a7e91a-817c-41bf-b456-2ea55ff40352")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13057,7 +13057,7 @@
 			(uuid "c6d10425-1a2f-46cf-ab1b-83d473f810c7")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -13102,10 +13102,11 @@
 		(property "Reference" "NC/SIP1X3"
 			(at 0 -2.61 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "41d6a2cc-5e6e-4c59-a617-bcbdfdcd3185")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13113,10 +13114,11 @@
 		(property "Value" "SIP1X3"
 			(at 0 2.61 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ffeb7e55-0fe7-48cb-80ae-7e06cded43a2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13426,7 +13428,7 @@
 			(uuid "870230db-ac37-414f-bb4e-acaa5c209980")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13478,12 +13480,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
-			(at 0 -1.05 90)
+			(at 0 0.889 90)
 			(layer "F.SilkS")
 			(uuid "f014da01-15d8-4e7b-b9f5-754260337100")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13494,7 +13496,7 @@
 			(uuid "e4a17e1f-14ae-445f-9978-ea2d3bed7dbd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13640,7 +13642,7 @@
 			(uuid "accb0751-b001-4db6-a309-1147e7452b2b")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -13702,7 +13704,7 @@
 			(uuid "e20ed50f-c148-4e2f-9ef9-2dcb006f709a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13713,7 +13715,7 @@
 			(uuid "edc4abb2-15b9-44d3-938a-879d612b6e3a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13859,7 +13861,7 @@
 			(uuid "be1d11ba-6b3e-4307-b48a-792f7560b7b9")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -13916,12 +13918,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
-			(at 0 -1.68 90)
+			(at -2.7185 0 90)
 			(layer "F.SilkS")
 			(uuid "6d87d792-9816-473f-bffb-71332937f8d6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13932,7 +13934,7 @@
 			(uuid "a7045717-2bea-497b-bc46-42a98a7d2b1a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14111,7 +14113,7 @@
 			(uuid "8fb1a62f-2640-4239-bf35-0e479c2f0ac1")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -14154,12 +14156,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C19"
-			(at 0 -1.68 90)
+			(at -2.8455 0 90)
 			(layer "F.SilkS")
 			(uuid "fac01ffc-1db3-47e8-a547-4df100c47bb0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14170,7 +14172,7 @@
 			(uuid "f73af6b8-d7ad-4fe9-a2fa-e5151f750f5f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14349,7 +14351,7 @@
 			(uuid "74907c1b-3df1-4595-9d3d-acb47aa91cd5")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -14397,7 +14399,7 @@
 			(uuid "890154c6-05a2-4bfb-b674-ceac401c5244")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14408,7 +14410,7 @@
 			(uuid "9087dd22-6b6f-4c55-9b95-d7ea299366d0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14581,7 +14583,7 @@
 			(uuid "cabf25ae-c472-4134-8073-32f1599ef324")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -14633,7 +14635,7 @@
 			(uuid "8bb0d5d3-2e60-4adc-88ab-09cc6e94d550")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14645,7 +14647,7 @@
 			(uuid "1e397cfc-f4e1-4384-8a21-71131920372b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14709,7 +14711,7 @@
 			(uuid "605fac67-d83e-47a2-bb6c-d2f53fe6a9a6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14734,12 +14736,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 -1.05 90)
+			(at -1.651 0 90)
 			(layer "F.SilkS")
 			(uuid "0ad3eb8f-6983-4868-aa83-b5a56d867ad7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14750,7 +14752,7 @@
 			(uuid "13fc3c6e-b08f-4574-aac0-eb59bbfe3af8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14909,7 +14911,7 @@
 			(uuid "120e65cb-2c3b-4ee0-b2ba-820912506e2e")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -14971,7 +14973,7 @@
 			(uuid "a897666c-e976-48cd-9453-d559c2cf8084")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14982,7 +14984,7 @@
 			(uuid "ac861168-c8e3-4ad3-ba91-6d017cd715b9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15161,7 +15163,7 @@
 			(uuid "f0bed043-9917-4f9e-b53a-0719856a69c6")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -15209,7 +15211,7 @@
 			(uuid "107bb597-736b-41a0-9c47-576f4c9aac63")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15221,7 +15223,7 @@
 			(uuid "cfb2184f-20e8-44ba-87c8-a224f54b8873")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15381,7 +15383,7 @@
 			(uuid "9ee2acfc-43e7-4fa2-a49d-b7e04e52ff98")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15442,12 +15444,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0 -1.05 90)
+			(at -1.651 0 90)
 			(layer "F.SilkS")
 			(uuid "4755bc85-5c38-4a2c-a711-58bfc22e1fec")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15458,7 +15460,7 @@
 			(uuid "9e95f415-eccf-4fab-8f81-b94bc932a513")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15617,7 +15619,7 @@
 			(uuid "5fbebd2b-9dfe-400c-ba36-f7fca52c91d4")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -15674,12 +15676,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
-			(at 0 -1.05 0)
+			(at -2.032 0.127 0)
 			(layer "F.SilkS")
 			(uuid "a9e30ba9-d5ad-494a-92a3-d853d0228761")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15690,7 +15692,7 @@
 			(uuid "0bbb62dc-b50b-416f-8dfa-ae630133366a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15849,7 +15851,7 @@
 			(uuid "4343ae32-122a-40c2-ae59-f3af79cdd36a")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -15906,12 +15908,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
-			(at 0 -1.68 90)
+			(at 0 -2.916 90)
 			(layer "F.SilkS")
 			(uuid "25e52b38-a7f4-4699-8904-0a38f30be24b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15922,7 +15924,7 @@
 			(uuid "eff176f3-2cf2-4321-8296-3c82e528ff12")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16101,7 +16103,7 @@
 			(uuid "069e0c59-32be-4b65-b4a5-c2b44d0b29ce")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -16144,7 +16146,7 @@
 		(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
 		(tags "Diode SOD882 DFN1006-2")
 		(property "Reference" "D2"
-			(at 0 -1.35 90)
+			(at 1.651 -0.127 90)
 			(layer "F.SilkS")
 			(uuid "03690087-d888-46b3-a79b-196860746566")
 			(effects
@@ -16160,7 +16162,7 @@
 			(uuid "76a2c8c2-247f-460c-8a7a-8a41af0a9d0b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16385,7 +16387,7 @@
 			(uuid "2f252af9-82ea-40db-9322-f806553fd936")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16465,7 +16467,7 @@
 			(uuid "92426a95-b5da-4d2f-ab49-ac4d5970b93a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16476,7 +16478,7 @@
 			(uuid "b16d2530-e189-43f5-b2a3-131a96fdb7dc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16622,7 +16624,7 @@
 			(uuid "051307c7-d7ad-4324-a7b3-3a703742eff3")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -16679,12 +16681,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
-			(at 0 -1.05 0)
+			(at -2.526 0 0)
 			(layer "F.SilkS")
 			(uuid "213415d3-0d02-4dd3-8895-c1101d68a9e9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16695,7 +16697,7 @@
 			(uuid "7bb3607c-e454-4def-92ac-1317248e2a70")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16841,7 +16843,7 @@
 			(uuid "662bd040-5f56-47d1-a691-b76b8e2eb3dd")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -16903,7 +16905,7 @@
 			(uuid "d7797417-1989-4456-bbbb-fb1f5c445597")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16914,7 +16916,7 @@
 			(uuid "598a0bbf-da42-470e-923c-dc0d4d826b0c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17060,7 +17062,7 @@
 			(uuid "ab396117-282b-410a-aeb2-3a24c02dcb7e")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -17117,12 +17119,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C13"
-			(at 0 -1.68 90)
+			(at -2.921 0 90)
 			(layer "F.SilkS")
 			(uuid "e77a8f43-4af7-4753-a71f-2437ea719b9f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17133,7 +17135,7 @@
 			(uuid "5a6cbce1-d91b-4eaf-89eb-21866c7a26a9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17312,7 +17314,7 @@
 			(uuid "d9b8ef5e-4009-4dd2-805a-7dffa4d5ac7c")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -17355,12 +17357,12 @@
 		(descr "6-pin SOT-23 package, Handsoldering")
 		(tags "SOT-23-6 Handsoldering")
 		(property "Reference" "U4"
-			(at 0 -2.9 90)
+			(at -3.556 0.762 90)
 			(layer "F.SilkS")
 			(uuid "e6bdded5-c3fb-4173-b599-42399d6d36a8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17371,7 +17373,7 @@
 			(uuid "086e994e-ed27-4bf1-ad2e-8f4a5a136617")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17544,7 +17546,7 @@
 			(uuid "b5b78561-e186-47e9-8efe-b5711ab1512c")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.075)
 				)
 			)
@@ -17634,7 +17636,7 @@
 			(uuid "c9edd561-cdfa-4b4e-8278-a6018198eee7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17645,7 +17647,7 @@
 			(uuid "9f2e6dcd-f260-4814-8003-bb61f4af7565")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17818,7 +17820,7 @@
 			(uuid "6e1db9c2-aa59-4b29-b1af-bdf2c7154a7a")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -17868,7 +17870,7 @@
 			(uuid "bd15702c-d972-424e-8543-9173f0a6e9c1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17880,7 +17882,7 @@
 			(uuid "43382734-2763-45ef-99a1-98fd5e6e7bc6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18040,7 +18042,7 @@
 			(uuid "8b791719-d176-4e70-988c-e11f8b078d22")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18108,7 +18110,7 @@
 			(uuid "10f36b3c-c294-4e90-9f9b-7653105ddff7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18120,7 +18122,7 @@
 			(uuid "79ed1021-4eda-4be6-9583-10a851d44309")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18184,7 +18186,7 @@
 			(uuid "148d6b15-a78b-4471-9822-3861631db898")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18214,7 +18216,7 @@
 			(uuid "5c6b86bc-2c7d-4933-9f29-d6217abe8b1c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18225,7 +18227,7 @@
 			(uuid "4e832352-6173-4206-9caf-a95343cd0267")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18371,7 +18373,7 @@
 			(uuid "29fbd3fe-22e2-4f6c-aaed-9f7e5c4f2982")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -18433,7 +18435,7 @@
 			(uuid "ce38a807-4dea-4913-9709-b2cdb56237ca")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18444,7 +18446,7 @@
 			(uuid "c2ba8c75-84e0-43fb-b2eb-b8bdeb3a2ba5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18603,7 +18605,7 @@
 			(uuid "33cb3f83-b757-4715-aa64-f00eca46c90c")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -18665,7 +18667,7 @@
 			(uuid "4d4d3f94-7f55-49ae-9b0e-59efac1d54e0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18677,7 +18679,7 @@
 			(uuid "4abfa93b-9127-4c80-87ad-5899097780a3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18837,7 +18839,7 @@
 			(uuid "3942e46f-9e04-48a1-ab75-119327e4f6fb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18903,7 +18905,7 @@
 			(uuid "db7e5231-6da0-483d-8d81-205c2b5b2440")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18914,7 +18916,7 @@
 			(uuid "71a5572a-45b3-4ac2-a8c7-b3b3e52b5690")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19087,7 +19089,7 @@
 			(uuid "de35d9ec-fd77-4d18-9566-a21267fcb3d8")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -19139,7 +19141,7 @@
 			(uuid "f8b4b35b-9f6f-4b6a-9f01-7524053b030a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19151,7 +19153,7 @@
 			(uuid "20334db5-a965-4ea1-9e5b-61791dce95da")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19215,7 +19217,7 @@
 			(uuid "0552c70a-ac8b-49fe-be8f-c5a36004c681")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19240,12 +19242,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R25"
-			(at 0 -1.05 90)
+			(at 2.286 0 90)
 			(layer "F.SilkS")
 			(uuid "9e983dc0-c103-4fd3-8065-5f652e5fc9c0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19256,7 +19258,7 @@
 			(uuid "d3bedc0a-8ebd-43b9-8657-b3d4d5962470")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19402,7 +19404,7 @@
 			(uuid "88447143-e95e-4290-a5bd-c9916002b0ab")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -19465,7 +19467,7 @@
 			(uuid "0379f386-f148-4869-9f89-a806a789440e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19476,7 +19478,7 @@
 			(uuid "1bb13a98-6636-4bb1-89bb-4cd217e4f73b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19680,7 +19682,7 @@
 			(uuid "c264a53c-6fdb-4452-a7a9-4b1c390f71f0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20270,12 +20272,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R24"
-			(at 0 -1.05 90)
+			(at 2.286 0.127 90)
 			(layer "F.SilkS")
 			(uuid "13bfb036-9423-4783-845e-b304984be4a8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20286,7 +20288,7 @@
 			(uuid "be4cd8d1-6382-4d07-9010-19fe74e7333e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20432,7 +20434,7 @@
 			(uuid "e7374d72-d85f-4632-ac4c-cf040f588f93")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -20489,12 +20491,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C27"
-			(at 0 -1.05 90)
+			(at -1.905 0.127 90)
 			(layer "F.SilkS")
 			(uuid "bd0313e8-8a61-4269-8da5-19ccbe8ce24d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20505,7 +20507,7 @@
 			(uuid "7e2ca363-6db7-43fa-955b-3cb6a8a4a962")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20664,7 +20666,7 @@
 			(uuid "484c2b4a-eb40-4980-8321-5699b4c135f7")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -20726,7 +20728,7 @@
 			(uuid "ce11d8bd-4179-43ec-a40f-50d3bd656c2b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20737,7 +20739,7 @@
 			(uuid "001767bf-6ef1-4135-8af2-cc8cd0a5cb89")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20910,7 +20912,7 @@
 			(uuid "b1701912-827f-48f7-b9d1-d5585fc0c3a0")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -20960,7 +20962,7 @@
 			(uuid "7755773d-d5a4-47b8-8bbe-9ccfcb95e0f7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -20971,7 +20973,7 @@
 			(uuid "10a4b534-d349-40c1-8cb8-1d80a73307fe")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21144,7 +21146,7 @@
 			(uuid "ea6ae8ab-63d3-45c0-8003-da28b51b2084")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -21189,12 +21191,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R23"
-			(at 0 -1.05 90)
+			(at 2.286 0.254 90)
 			(layer "F.SilkS")
 			(uuid "54973ccc-0cb7-4d17-aa56-aeefc8ff6665")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21205,7 +21207,7 @@
 			(uuid "faae8d56-db74-46cb-8141-c8ded1387b19")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21351,7 +21353,7 @@
 			(uuid "961a6f50-be8c-4bd8-b8e5-7f33b2c7176b")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -21413,7 +21415,7 @@
 			(uuid "b949f130-aaa3-42f7-a761-a933460a1164")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21424,7 +21426,7 @@
 			(uuid "f4f239fe-ed8c-41d5-8b9f-d516f165c90e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21570,7 +21572,7 @@
 			(uuid "d2139d27-2011-44fc-87bc-74f28a90d1f8")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -21631,7 +21633,7 @@
 			(uuid "5870b482-86d8-4434-a63e-8005b55ea0c4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21642,7 +21644,7 @@
 			(uuid "cb815b69-d3bb-4f69-bcda-7a41058e0025")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21861,7 +21863,7 @@
 			(uuid "b9b3ac15-b195-4629-9dde-72311036f023")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21873,7 +21875,7 @@
 			(uuid "35b1c412-c86e-490a-b3c8-1cf0d1ff8bdb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24342,7 +24344,7 @@
 			(uuid "a3b0cc0e-dcdf-4aa5-af29-4b7b5bf1564f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24353,7 +24355,7 @@
 			(uuid "c1014253-82d5-405e-b5d8-632b9c804f57")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24499,7 +24501,7 @@
 			(uuid "882ee583-b3f3-4f06-bacc-6d7f329e9b8d")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -24561,7 +24563,7 @@
 			(uuid "3dfb70ad-2b8a-4e57-8698-8baaa1d4227a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24572,7 +24574,7 @@
 			(uuid "6e4ef540-66b8-4afc-80cd-090f7a60f520")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24745,7 +24747,7 @@
 			(uuid "bfa4a87f-f4f4-49b4-bae2-6b2a7f712319")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -24795,7 +24797,7 @@
 			(uuid "1b68f5fc-083c-4248-a5de-41b346131d56")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24806,7 +24808,7 @@
 			(uuid "9db6564f-a4b2-4c51-a0b2-1f7a7f414d6d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -24965,7 +24967,7 @@
 			(uuid "927088b5-1fbc-47d2-917a-f8708966e371")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -25021,12 +25023,12 @@
 		(at 47.339 67.564 180)
 		(descr "Consumer SHT4x Digital and Analog")
 		(property "Reference" "U1"
-			(at 0 -1.635 0)
+			(at 0 1.651 0)
 			(layer "F.SilkS")
 			(uuid "f82e9243-a87e-48e6-9be3-2517918a6f6e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25037,7 +25039,7 @@
 			(uuid "3c21a31e-c988-4339-97bb-1f0b073d00e8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25252,12 +25254,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "CC7"
-			(at 0 -1.05 90)
+			(at -2.5915 -0.127 90)
 			(layer "F.SilkS")
 			(uuid "6d434573-a13a-4a09-adb7-685a918a08cd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25268,7 +25270,7 @@
 			(uuid "4928e966-2f53-4d64-bd61-8c65567baa83")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25427,7 +25429,7 @@
 			(uuid "2c01d765-8f19-44c7-8b71-ca377f1b0f78")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -25484,12 +25486,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at 0 -1.68 90)
+			(at -2.794 0 90)
 			(layer "F.SilkS")
 			(uuid "c350a058-a050-4893-9328-a346f3d6cb29")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25500,7 +25502,7 @@
 			(uuid "57f5820c-8015-417f-908d-09893546784f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25679,7 +25681,7 @@
 			(uuid "34dc4274-bb97-46b1-9bf8-74635a0990ac")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -25722,7 +25724,7 @@
 		(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
 		(tags "Diode SOD882 DFN1006-2")
 		(property "Reference" "D4"
-			(at 0 -1.35 90)
+			(at 1.524 0 90)
 			(layer "F.SilkS")
 			(uuid "c86f8893-96c1-4dff-95d5-2fcc96a789f9")
 			(effects
@@ -25738,7 +25740,7 @@
 			(uuid "4d9d52b1-06f8-45ac-a23a-34113438ddc4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -25963,7 +25965,7 @@
 			(uuid "f3658a28-fb0b-4fee-b5ae-26d29f1a5d2a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26038,7 +26040,7 @@
 		(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
 		(tags "Diode SOD882 DFN1006-2")
 		(property "Reference" "D33"
-			(at 0 -1.35 90)
+			(at 1.905 0 90)
 			(layer "F.SilkS")
 			(uuid "96cab845-f106-4ae0-9515-7e1398dfbf64")
 			(effects
@@ -26054,7 +26056,7 @@
 			(uuid "75ea780f-ef18-449f-a8b0-1096da228f57")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26279,7 +26281,7 @@
 			(uuid "2d5ab131-4d1d-4cd6-bc9c-3e54103ba496")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26354,12 +26356,12 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D9"
-			(at 0 -1.43 0)
+			(at -0.127 -1.27 0)
 			(layer "F.SilkS")
 			(uuid "c4de5f14-196d-439e-acbe-5ed4917b061a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26370,7 +26372,7 @@
 			(uuid "28bc3fc4-b40a-454a-a3a2-a06f21110df8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26543,7 +26545,7 @@
 			(uuid "c9558747-8847-482d-9b11-1ace8f3f1c46")
 			(effects
 				(font
-					(size 0.4 0.4)
+					(size 0.7 0.7)
 					(thickness 0.06)
 				)
 			)
@@ -26593,7 +26595,7 @@
 			(uuid "79b9931b-80b3-4077-924d-c8c79d0a81f7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26604,7 +26606,7 @@
 			(uuid "b456ac5c-700d-4fd6-a44e-2744750292ac")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26750,7 +26752,7 @@
 			(uuid "2a8e9cb1-d05c-4519-8b13-0bd37de232c3")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -26807,12 +26809,12 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
-			(at 0 -1.68 90)
+			(at 0 -3.175 90)
 			(layer "F.SilkS")
 			(uuid "7562efca-6dcb-4bf1-8198-49ddac18d60e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -26823,7 +26825,7 @@
 			(uuid "86529b9f-7548-4722-ab21-c6d1da58eb50")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27002,7 +27004,7 @@
 			(uuid "f46d130a-a17c-428e-ab56-51d6286165c1")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.08)
 				)
 			)
@@ -27050,7 +27052,7 @@
 			(uuid "3b4c85a8-6adf-43f6-ad55-10c4ca693e39")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27061,7 +27063,7 @@
 			(uuid "a77c1942-9eb3-47c3-a21c-7395d1ff35fe")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27234,7 +27236,7 @@
 			(uuid "590e785c-897e-40fe-a8b9-11e971fe74d3")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 0.7 0.7)
 					(thickness 0.075)
 				)
 			)
@@ -27319,12 +27321,12 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
-			(at 0 -1.05 90)
+			(at 0 1.016 90)
 			(layer "F.SilkS")
 			(uuid "661ab71a-15b2-4766-afd8-97e2b6fd099b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27335,7 +27337,7 @@
 			(uuid "d92acf1a-bd42-458e-a138-23203d44c7aa")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27481,7 +27483,7 @@
 			(uuid "69445b06-c012-4b48-868c-5da66bdd2ecd")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -27538,12 +27540,12 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 0 -1.05 0)
+			(at -1.651 0 0)
 			(layer "F.SilkS")
 			(uuid "52790b8d-8ed4-446d-8cf3-d9a5f014fe87")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27554,7 +27556,7 @@
 			(uuid "7d736256-5c7f-40ce-9a33-546f7518e243")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -27713,7 +27715,7 @@
 			(uuid "7c1ba489-f6e6-4e25-a7c0-c746813ba0b5")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.7 0.7)
 					(thickness 0.04)
 				)
 			)
@@ -27768,23 +27770,23 @@
 		(uuid "fd7491a9-740c-4f5c-833f-f9d291bab387")
 		(at 257.524 60.3765 90)
 		(property "Reference" "L2"
-			(at 0 3.5 90)
+			(at 3.3535 0.127 90)
 			(layer "F.SilkS")
 			(uuid "582bdbd9-aae6-464d-989d-5817e85a4090")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
 		)
 		(property "Value" "WPN4020H2R2MT"
 			(at 0 -3 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "c338a973-3865-4dbd-941f-384e401615a9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -28323,7 +28325,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 31.511762 64.516 0)
+		(at 33.202143 64.389 0)
 		(layer "F.SilkS" knockout)
 		(uuid "527e8b18-9ef0-47bf-a121-d770057f7f63")
 		(effects
@@ -28375,7 +28377,7 @@
 		)
 	)
 	(gr_text "TX"
-		(at 32.845095 67.818 0)
+		(at 34.535476 67.691 0)
 		(layer "F.SilkS" knockout)
 		(uuid "7974d97f-a5b7-413d-920c-543177559e5a")
 		(effects
@@ -28427,12 +28429,12 @@
 		)
 	)
 	(gr_text "RX"
-		(at 32.607 66.167 0)
+		(at 34.385 66.04 0)
 		(layer "F.SilkS" knockout)
 		(uuid "a0d53a2b-f5a5-44c3-99a0-73ecbbaae7db")
 		(effects
 			(font
-				(size 1 1)
+				(size 1 0.95)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -28453,13 +28455,13 @@
 		)
 	)
 	(gr_text "UART"
-		(at 35.131429 63.5 270)
+		(at 33.408381 64.514945 270)
 		(layer "F.SilkS" knockout)
 		(uuid "b9e3d2f3-517e-45d0-b875-04074e03cc51")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.2)
+				(size 0.7 0.85)
+				(thickness 0.175)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -40292,8 +40294,7 @@
 		(polygon
 			(pts
 				(xy 167.862 36.449) (xy 165.703 36.449) (xy 165.703 38.862) (xy 165.83 38.989) (xy 165.83 39.243)
-				(xy 166.338 39.243) (xy 166.338 39.243) (xy 166.338 38.989) (xy 166.465 38.862) (xy 167.608 38.862)
-				(xy 167.862 38.608)
+				(xy 166.338 39.243) (xy 166.338 38.989) (xy 166.465 38.862) (xy 167.608 38.862) (xy 167.862 38.608)
 			)
 		)
 		(filled_polygon
@@ -42676,13 +42677,6 @@
 		)
 	)
 	(group ""
-		(uuid "92365528-9630-4bc9-bd73-40793c17bcb2")
-		(members "1a4402f8-bb53-4efb-89cd-3970adab9192" "33807d6e-92be-4188-8130-5f74baf05bd4"
-			"673fe65b-2901-456c-9f6d-5e379343d1ac" "85dd8cb9-d2c6-40cf-b381-5b9bdc07dfd9"
-			"b10a37d4-9bb4-467b-86a3-09d0c1eb9ca7"
-		)
-	)
-	(group ""
 		(uuid "297df9fc-56f3-4473-b9aa-d464a1f56454")
 		(members "1ad1176e-f9e8-4eef-b731-8f908cba035f" "216c544d-f7fe-4ded-b0f2-092b8eb8d541"
 			"2ced6556-8b1f-4ab8-9530-9a2f3a411d23" "44cba890-50cd-4723-b744-51fd41f6cdaa"
@@ -42705,6 +42699,12 @@
 	(group ""
 		(uuid "ec8d8d92-6482-4aeb-b85f-462c9f5337b4")
 		(members "297df9fc-56f3-4473-b9aa-d464a1f56454" "2b5e6c9c-f947-4bda-940b-17c08984c535")
+	)
+	(group ""
+		(uuid "bfb8b2db-9997-4ff4-8d45-a2c447278f99")
+		(members "527e8b18-9ef0-47bf-a121-d770057f7f63" "7974d97f-a5b7-413d-920c-543177559e5a"
+			"a0d53a2b-f5a5-44c3-99a0-73ecbbaae7db" "b9e3d2f3-517e-45d0-b875-04074e03cc51"
+		)
 	)
 	(embedded_fonts no)
 )
